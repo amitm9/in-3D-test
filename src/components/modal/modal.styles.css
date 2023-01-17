@@ -1,0 +1,41 @@
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal {
+  position: absolute;
+  z-index: 100;
+  background-color: black;
+  color: pink;
+  font-size: 20px;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  }
+  
+  .modal label {
+  font-size: 20px;
+  }
+  
+  .modal img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  }
+  .modal-close-button {
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    }

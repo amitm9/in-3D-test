@@ -1,0 +1,28 @@
+.full-screen{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.input-search {
+    position: absolute;
+    z-index: 100;
+    background-color: pink;
+    color: black;
+    font-size:20px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .input-search::placeholder {
+    color: black;
+  }
+  .input-search:focus {
+    outline: none;
+    border: 2px solid pink;
+  }
